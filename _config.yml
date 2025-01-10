@@ -46,11 +46,11 @@ linkedin_username: Seokho Kang
 
 # About Section
 # about_title: About Me
-about_profile_image: images/seokho_profile.png
+about_profile_image: images/seokho_profile2.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  
+  사용자 경험을 최우선으로 생각하며, 코드의 가독성과 유지보수성을 중요하게 여기는 개발자 강석호입니다. 매 프로젝트마다 더 나은 구조를 고민하고, 새로운 기술을 적극적으로 도입하여 성장하는 것을 목표로 합니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  주로 <mark>UIKit</mark>과 <mark>RxSwift</mark>를 활용하여 앱을 개발하였으며, <mark>SwiftUI</mark>와 <mark>Combine</mark>을 활용하여 앱을 출시한 경험도 갖고 있습니다.
 
 content:
   - title: Projects # Title for the section
