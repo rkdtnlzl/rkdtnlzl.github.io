@@ -22,7 +22,7 @@ github_username: rkdtnlzl
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: Seokho Kang
+linkedin_username: seokho-kang-54a898209
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -48,9 +48,23 @@ linkedin_username: Seokho Kang
 # about_title: About Me
 about_profile_image: images/seokho_profile2.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  사용자 경험을 최우선으로 생각하며, 코드의 가독성과 유지보수성을 중요하게 여기는 개발자 강석호입니다. 매 프로젝트마다 더 나은 구조를 고민하고, 새로운 기술을 적극적으로 도입하여 성장하는 것을 목표로 합니다.
+  안녕하세요, 사용자 경험을 최우선으로 생각하며 지속 가능한 코드를 추구하는 iOS 개발자 강석호입니다. 
+  Clean Architecture와 SOLID 원칙을 기반으로 한 견고한 코드 설계를 지향하며, 팀원들과의 원활한 협업을 위해 코드 리뷰와 기술 공유에 적극적으로 참여합니다.
 
-  주로 <mark>UIKit</mark>과 <mark>RxSwift</mark>를 활용하여 앱을 개발하였으며, <mark>SwiftUI</mark>와 <mark>Combine</mark>을 활용하여 앱을 출시한 경험도 갖고 있습니다.
+  기술 스택:
+  - <mark>UIKit</mark>과 <mark>RxSwift</mark>를 활용한 MVVM 아키텍처 설계 및 반응형 프로그래밍 구현
+  - <mark>SwiftUI</mark>와 <mark>Combine</mark>을 이용한 선언형 UI 개발 및 상태 관리
+  - <mark>Realm</mark>을 활용한 로컬 데이터베이스 설계
+  - <mark>SnapKit</mark>, <mark>Then</mark>을 활용한 프로그래매틱 UI 구현
+  - <mark>Alamofire</mark>, <mark>Moya</mark>를 이용한 네트워크 계층 설계
+
+  개발 철학:
+  - 사용자의 피드백을 적극 수용하여 지속적인 UX 개선
+  - 재사용 가능한 컴포넌트 설계로 생산성 향상
+  - 코드 컨벤션과 문서화를 통한 팀 생산성 향상
+  
+  현재는 SwiftUI와 Combine을 활용한 모던 iOS 개발 방식을 깊이 있게 학습하며, 
+  더 나은 사용자 경험을 제공하기 위해 다양한 iOS 프레임워크들을 연구하고 있습니다.
 
 content:
   - title: Projects # Title for the section
