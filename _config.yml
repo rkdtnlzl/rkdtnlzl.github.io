@@ -52,11 +52,11 @@ about_content: | # this will include new lines to allow paragraphs
   Clean Architecture와 SOLID 원칙을 기반으로 한 견고한 코드 설계를 지향하며, 팀원들과의 원활한 협업을 위해 코드 리뷰와 기술 공유에 적극적으로 참여합니다.
 
   기술 스택:
-  - <mark>UIKit</mark>과 <mark>RxSwift</mark>를 활용한 MVVM 아키텍처 설계 및 반응형 프로그래밍 구현
-  - <mark>SwiftUI</mark>와 <mark>Combine</mark>을 이용한 선언형 UI 개발 및 상태 관리
-  - <mark>Realm</mark>을 활용한 로컬 데이터베이스 설계
-  - <mark>SnapKit</mark>, <mark>Then</mark>을 활용한 프로그래매틱 UI 구현
-  - <mark>Alamofire</mark>, <mark>Moya</mark>를 이용한 네트워크 계층 설계
+  - **`UIKit`** + **`RxSwift`**를 활용한 MVVM 아키텍처 설계 및 반응형 프로그래밍 구현
+  - **`SwiftUI`** + **`Combine`** 프레임워크를 이용한 선언형 UI 개발 및 상태 관리
+  - **`Realm DB`**를 활용한 효율적인 로컬 데이터베이스 설계 및 구현
+  - **`SnapKit`** + **`Then`** 라이브러리를 활용한 프로그래매틱 UI 구현
+  - **`Alamofire`** + **`Moya`** 기반의 체계적인 네트워크 계층 설계
 
   개발 철학:
   - 사용자의 피드백을 적극 수용하여 지속적인 UX 개선
