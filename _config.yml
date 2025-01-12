@@ -45,7 +45,7 @@ linkedin_username: seokho-kang-54a898209
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: 자기소개
 about_profile_image: images/seokho_profile2.jpeg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요, 사용자 경험을 최우선으로 생각하며 지속 가능한 코드를 추구하는 iOS 개발자 강석호입니다. 
@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
   기술 스택:
   - **`UIKit`** + **`RxSwift`**를 활용한 MVVM 아키텍처 설계 및 반응형 프로그래밍 구현
   - **`SwiftUI`** + **`Combine`** 프레임워크를 이용한 선언형 UI 개발 및 상태 관리
-  - **`Realm DB`**를 활용한 효율적인 로컬 데이터베이스 설계 및 구현
+  - **`Realm`** DB를 활용한 효율적인 로컬 데이터베이스 설계 및 구현
   - **`SnapKit`** + **`Then`** 라이브러리를 활용한 프로그래매틱 UI 구현
   - **`Alamofire`** + **`Moya`** 기반의 체계적인 네트워크 계층 설계
 
@@ -67,24 +67,38 @@ about_content: | # this will include new lines to allow paragraphs
   더 나은 사용자 경험을 제공하기 위해 다양한 iOS 프레임워크들을 연구하고 있습니다.
 
 content:
-  - title: Projects # Title for the section
+  - title: 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: MailringX v2.0 앱 개발
+        # sub_title: iOS 개발자
+        caption: 2024.11 - 2025.01
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          기업용 커뮤니케이션 플랫폼 MailringX의 iOS 버전 2.0 개발
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          **주요 개발 내용:**
+          - 워크스페이스 기능 개발
+            - 다중 계정 관리 시스템 구현
+            - 그룹 관리 및 멀티 세션 기능 구현
+            - 계정 전환 및 로그아웃 기능 구현
+          
+          - 채팅 시스템 구현
+            - 1:1 및 그룹 채팅방 구현
+            - 실시간 메시지 동기화 및 푸시 알림 구현
+            - 채팅방 초대 및 퇴장 시스템 구현
+            - 읽음 표시 및 로컬 DB 연동
+          
+          - 통화 기능 고도화
+            - 개인/그룹 통화 시스템 구현
+            - 통화 기록 관리 및 UI 개선
+            - 발신/수신 시나리오별 예외처리
+          
+          **사용 기술:**
+          - **`UIKit`**, **`RxSwift`**, **`MVVM`** 아키텍처
+          - **`Realm DB`**를 활용한 로컬 데이터 관리
+          - **`WebRTC`**를 이용한 음성통화 구현
+          - **`Firebase`**를 통한 푸시 알림 구현
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
