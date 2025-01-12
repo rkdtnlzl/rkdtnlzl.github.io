@@ -72,33 +72,20 @@ content:
     content:
       - layout: top-middle
         title: MailringX v2.0 앱 개발
-        # sub_title: iOS 개발자
-        caption: 2024.11 - 2025.01
+        caption: 2023.11 - 2024.01
         quote: >
-          기업용 커뮤니케이션 플랫폼 MailringX의 iOS 버전 2.0 개발
+          기업용 커뮤니케이션 플랫폼 MailringX의 iOS 버전 2.0 개발 프로젝트입니다.
+          워크스페이스, 채팅, 통화 등 핵심 기능을 성공적으로 구현했습니다.
         description: | # this will include new lines to allow paragraphs
-          **주요 개발 내용:**
-          - 워크스페이스 기능 개발
-            - 다중 계정 관리 시스템 구현
-            - 그룹 관리 및 멀티 세션 기능 구현
-            - 계정 전환 및 로그아웃 기능 구현
-          
-          - 채팅 시스템 구현
-            - 1:1 및 그룹 채팅방 구현
-            - 실시간 메시지 동기화 및 푸시 알림 구현
-            - 채팅방 초대 및 퇴장 시스템 구현
-            - 읽음 표시 및 로컬 DB 연동
-          
-          - 통화 기능 고도화
-            - 개인/그룹 통화 시스템 구현
-            - 통화 기록 관리 및 UI 개선
-            - 발신/수신 시나리오별 예외처리
-          
-          **사용 기술:**
-          - **`UIKit`**, **`RxSwift`**, **`MVVM`** 아키텍처
-          - **`Realm DB`**를 활용한 로컬 데이터 관리
-          - **`WebRTC`**를 이용한 음성통화 구현
-          - **`Firebase`**를 통한 푸시 알림 구현
+          워크스페이스 기능 개발을 통해 다중 계정 관리 시스템과 그룹 관리 기능을 구현했으며, 
+          실시간 채팅 시스템에서는 1:1 및 그룹 채팅, 푸시 알림, 읽음 표시 등의 기능을 완성했습니다.
+          또한 개인/그룹 통화 시스템을 고도화하여 안정적인 음성 통화 서비스를 제공했습니다.
+
+          주요 기술 스택:
+          - **`UIKit`** + **`RxSwift`**를 활용한 MVVM 아키텍처 구현
+          - **`Realm DB`**를 활용한 채팅 메시지 및 통화 기록 관리
+          - **`WebRTC`**를 이용한 실시간 음성통화 구현
+          - **`Firebase Cloud Messaging`**을 통한 푸시 알림 시스템 구축
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
